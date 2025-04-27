@@ -1,17 +1,16 @@
 function CustomizableBag(params) {
     return (
-        <section className="py-16 bg-stone-50 flex justify-center">
+        <section className="py-16 bg-stone-50 flex justify-center font-glacial sm:p-0 p-2">
             <div className="container">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                    <div className="relative h-[400px] rounded-lg overflow-hidden">
+                    <div className="relative h-[400px] rounded-lg overflow-hidden  ">
                         <img
                             src="./BagC.jpg"
                             alt="Custom paper bag solutions"
-                            fill
-                            className="object-cover"
+                            className="object-cover w-full h-full rounded-xl"
                         />
                     </div>
-                    <div>
+                    <div className="p-5">
                         <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-6">Custom Solutions</h2>
                         <p className="text-muted-foreground mb-4">
                             Can't find exactly what you're looking for? We specialize in creating custom paper bag solutions
@@ -95,6 +94,6 @@ function CustomizableBag(params) {
                 </div>
             </div>
         </section>
-    )
+    );
 }
 export default CustomizableBag;

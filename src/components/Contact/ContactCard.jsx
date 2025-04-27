@@ -1,7 +1,7 @@
 import { Mail, MapPin, Package, Phone } from "lucide-react"
 function ContactCard() {
     return (
-        <section className="py-16 flex justify-center">
+        <section className="py-16 flex justify-center  px-5 ">
             <div className="container">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                     <div className="flex flex-col items-center text-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm">

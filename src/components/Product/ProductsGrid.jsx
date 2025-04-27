@@ -1,8 +1,8 @@
 function ProductsGrid() {
     return (
-        <section className="py-16 flex justify-center items-center">
+        <section className="py-16 flex justify-center items-center font-glacial p-5">
             <div className="container">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-8">
                     {[
                         {
                             title: "Standard Shopping Bags",
@@ -76,18 +76,12 @@ function ProductsGrid() {
                                         </li>
                                     ))}
                                 </ul>
-                                {/* <div className="mt-6 flex gap-3">
-                                    <a className="flex-1 bg-green-600 hover:bg-green-700">Request Quote</a>
-                                    <a variant="outline" className="flex-1 border-green-600 text-green-600 hover:bg-green-50">
-                                        Details
-                                    </a>
-                                </div> */}
                             </div>
                         </div>
                     ))}
                 </div>
             </div>
         </section>
-    )
+    );
 }
 export default ProductsGrid;

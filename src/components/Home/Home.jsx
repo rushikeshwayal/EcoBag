@@ -1,10 +1,10 @@
 import homePng from "../../assets/bag.jpg";
 import NavBar from "../NavBar";
-import "./LandingHome.css"; // <- NEW: custom CSS file
+import "./LandingHome.css"; // Custom CSS stays
 
 function LandingHome() {
     return (
-        <div>
+        <div className="min-h-screen w-full">
             <NavBar className="text-white" />
             <div
                 className="h-screen w-full bg-cover bg-center -z-10 overflow-hidden"
@@ -13,26 +13,33 @@ function LandingHome() {
                     backgroundAttachment: "fixed",
                 }}
             >
-                <div className="text-white min-h-screen flex flex-wrap justify-center flex-col items-start pb-40 px-8 gap-5">
-                    <div className="gap-2 flex flex-col justify-center items-center">
-                        <h1 className="extraBoldText text-3xl sm:text-4xl md:text-5xl font-bold text-center text-green-400 font-glacial-bold">
+                <div className="text-white min-h-screen flex flex-col justify-center items-center gap-8 px-4 sm:px-8 md:px-12 pb-20">
+
+                    {/* Title Section */}
+                    <div className="flex flex-col items-center gap-3 text-center">
+                        <h1 className="extraBoldText text-2xl sm:text-3xl md:text-5xl font-bold text-green-400 font-glacial-bold">
                             Eco-Friendly Paper Bags
                         </h1>
-                        <h1 className="extraBoldText text-3xl sm:text-4xl md:text-5xl font-bold text-center text-green-400 font-glacial-bold">
+                        <h1 className="extraBoldText text-2xl sm:text-3xl md:text-5xl font-bold text-green-400 font-glacial-bold">
                             for a Sustainable Future
                         </h1>
                     </div>
-                    <h1 className="AboutTitle text-lg sm:text-xl md:text-2xl  font-glacial">
-                        Premium quality, customizable paper bags manufactured with <br /> sustainable practices and materials.
+
+                    {/* Subtitle Section */}
+                    <h1 className="AboutTitle text-base sm:text-lg md:text-2xl font-glacial text-center">
+                        Premium quality, customizable paper bags manufactured with <br className="hidden md:block" /> sustainable practices and materials.
                     </h1>
-                    <div className="flex gap-5 justify-center items-center flex-wrap">
-                        <a className="animated-button border-2 px-5 py-2 relative overflow-hidden z-10">
+
+                    {/* Buttons Section */}
+                    <div className="flex gap-4 sm:gap-6 flex-wrap justify-center items-center">
+                        <a className="animated-button border-2 px-5 py-2 sm:px-6 sm:py-3 relative overflow-hidden z-10">
                             Explore Products
                         </a>
-                        <a className="animated-button  border-2 px-5 py-2 relative overflow-hidden z-10">
+                        <a className="animated-button border-2 px-5 py-2 sm:px-6 sm:py-3 relative overflow-hidden z-10">
                             Learn More
                         </a>
                     </div>
+
                 </div>
             </div>
         </div>

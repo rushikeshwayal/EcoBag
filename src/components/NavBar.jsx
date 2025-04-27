@@ -1,20 +1,76 @@
-import { Filter, Package, Search } from "lucide-react"
-function NavBar() {
-    return (
-        <div>
-            <nav className="flex justify-between items-center bg-transparent p-2 px-8 text-black border-b-2 border-black top-0 font-glacial">
+import { useState } from "react";
+import { AlignJustify, Package } from "lucide-react";
 
+function NavBar() {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen);
+    };
+
+    return (
+        <div className="w-full">
+            <nav className="flex justify-between items-center bg-transparent p-2 px-8 text-black border-b-2 border-black top-0 font-glacial relative">
+                {/* Logo Section */}
                 <div className="text-2xl flex justify-center items-center space-x-2 gap-2">
-                    <Package className="h-6 w-6 text-green-600" />EcoBags</div>
-                <ul className="flex space-x-8">
-                    <li><a href="/" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">Home</a></li>
-                    <li><a href="#about" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">About</a></li>
-                    {/* <li><a href="#services" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">Services</a></li> */}
-                    <li><a href="/product" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">Products</a></li>
-                    <li><a href="/contact" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">Contact</a></li>
+                    <Package className="h-6 w-6 text-green-600" />
+                    EcoBags
+                </div>
+
+                {/* Desktop Menu */}
+                <ul className="hidden md:flex space-x-8">
+                    <li>
+                        <a href="/" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/product" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                            Products
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contact" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                            Contact
+                        </a>
+                    </li>
                 </ul>
+
+                {/* Mobile Menu Icon */}
+                <div className="md:hidden">
+                    <button onClick={toggleMenu}>
+                        <AlignJustify className="h-6 w-6 text-black" />
+                    </button>
+                </div>
             </nav>
+
+            {/* Mobile Dropdown Menu with Animation */}
+            <div
+                className={`md:hidden overflow-hidden transition-all duration-500 ease-in-out ${menuOpen ? 'max-h-60' : 'max-h-0'
+                    } bg-white border-t-2 border-black px-8 font-glacial text-lg`}
+            >
+                <div className="flex flex-col py-4 space-y-4">
+                    <a href="/" className="block text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                        Home
+                    </a>
+                    <a href="#about" className="block text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                        About
+                    </a>
+                    <a href="/product" className="block text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                        Products
+                    </a>
+                    <a href="/contact" className="block text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                        Contact
+                    </a>
+                </div>
+            </div>
         </div>
-    )
+    );
 }
+
 export default NavBar;
