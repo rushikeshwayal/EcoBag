@@ -32,10 +32,10 @@ function LandingHome() {
 
                     {/* Buttons Section */}
                     <div className="flex gap-4 sm:gap-6 flex-wrap justify-center items-center">
-                        <a className="animated-button border-2 px-5 py-2 sm:px-6 sm:py-3 relative overflow-hidden z-10">
+                        <a className="animated-button border-2 px-5 py-2 sm:px-6 sm:py-3 relative overflow-hidden z-10" href="/product">
                             Explore Products
                         </a>
-                        <a className="animated-button border-2 px-5 py-2 sm:px-6 sm:py-3 relative overflow-hidden z-10">
+                        <a className="animated-button border-2 px-5 py-2 sm:px-6 sm:py-3 relative overflow-hidden z-10" href="/#about">
                             Learn More
                         </a>
                     </div>

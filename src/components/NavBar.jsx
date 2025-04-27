@@ -8,6 +8,22 @@ function NavBar() {
         setMenuOpen(!menuOpen);
     };
 
+    const handleAboutClick = (e) => {
+        e.preventDefault();
+        const isHomePage = window.location.pathname === "/";
+
+        if (isHomePage) {
+            // Scroll to "about" section directly on the current page
+            const aboutSection = document.getElementById("about");
+            if (aboutSection) {
+                aboutSection.scrollIntoView({ behavior: "smooth" });
+            }
+        } else {
+            // Navigate to homepage and scroll to "about" section
+            window.location.href = "/#about";
+        }
+    };
+
     return (
         <div className="w-full">
             <nav className="flex justify-between items-center bg-transparent p-2 px-8 text-black border-b-2 border-black top-0 font-glacial relative">
@@ -25,7 +41,12 @@ function NavBar() {
                         </a>
                     </li>
                     <li>
-                        <a href="#about" className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                        {/* Handle "About" click */}
+                        <a
+                            href="#about"
+                            onClick={handleAboutClick}
+                            className="text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear"
+                        >
                             About
                         </a>
                     </li>
@@ -58,7 +79,11 @@ function NavBar() {
                     <a href="/" className="block text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
                         Home
                     </a>
-                    <a href="#about" className="block text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
+                    <a
+                        href="#about"
+                        onClick={handleAboutClick}
+                        className="block text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear"
+                    >
                         About
                     </a>
                     <a href="/product" className="block text-gray-600 hover:text-gray-800 hover:font-semibold transition-all duration-75 ease-linear">
