@@ -13,7 +13,7 @@ function Hero() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-green-900/40 to-green-700/30 -z-10" />
                     <div className="container relative flex h-full flex-col items-center justify-center gap-4 text-center z-10">
-                        <h1 className="max-w-3xl text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white sm:text-5xl font-glacial-bold">
+                        <h1 className="max-w-3xl text-4xl md:text-6xl font-bold tracking-tight text-white sm:text-5xl font-glacial-bold">
                             Our Products
                         </h1>
                         <p className="max-w-2xl text-lg sm:text-xl text-white/90">
