@@ -28,9 +28,9 @@ function NavBar() {
         <div className="w-full">
             <nav className="flex justify-between items-center bg-transparent p-2 px-8 text-black border-b-2 border-black top-0 font-glacial relative">
                 {/* Logo Section */}
-                <div className="text-2xl flex justify-center items-center space-x-2 gap-2">
+                <div className="sm:text-2xl lg:text-xl text-sm flex justify-center items-center space-x-2 gap-2">
                     <Package className="h-6 w-6 text-green-600" />
-                    EcoBags
+                    Vidharbha Paper Products
                 </div>
 
                 {/* Desktop Menu */}

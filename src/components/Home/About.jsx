@@ -18,7 +18,7 @@ function About() {
                         {/* Text Section */}
                         <div>
                             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight mb-6 font-glacial-bold">
-                                About EcoBags
+                                About Vidharbha Paper Products
                             </h2>
                             <p className="text-muted-foreground mb-4 text-base sm:text-lg">
                                 At Vidharba Paper Products, we manufacture paper products like all types of paper bags, paper cups, paper plates & donas, paper decoration utilities, and tissue paper.

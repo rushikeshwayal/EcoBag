@@ -9,7 +9,7 @@ function Footer() {
                     <div>
                         <div className="flex items-center gap-2 mb-4">
                             <Package className="h-6 w-6 text-green-400" />
-                            <span className="text-xl font-bold">EcoBags</span>
+                            <span className="text-xl font-bold">Vidharbha Paper Products</span>
                         </div>
                         <p className="text-stone-300 mb-4 text-sm sm:text-base">
                             Premium quality paper bags for a sustainable future.
@@ -82,7 +82,7 @@ function Footer() {
 
                 {/* Footer Bottom */}
                 <div className="mt-8 pt-8 border-t border-stone-700 text-center text-stone-400 text-xs sm:text-sm">
-                    <p>© {new Date().getFullYear()} EcoBags. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} Vidharbha Paper Products. All rights reserved.</p>
                 </div>
             </div>
         </footer>
