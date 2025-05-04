@@ -49,7 +49,7 @@ function ProductsGrid() {
                         {
                             title: "Paper Cups",
                             description: "High-quality disposable paper cups, perfect for hot and cold beverages in cafes, offices, and events.",
-                            features: ["Available in 100ML, 150ML, and 200ML", "Leak-proof and heat-resistant", "Eco-friendly and food-safe"],
+                            features: ["Available in  55ML, 65ML 100ML, 150ML, and 200ML", "Leak-proof and heat-resistant", "Eco-friendly and food-safe"],
                             image: "/PaperCups2.jpg",
                         },
                         {
