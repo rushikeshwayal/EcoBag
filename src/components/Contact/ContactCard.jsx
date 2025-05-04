@@ -13,7 +13,7 @@ function ContactCard() {
                             Our customer service team is available Monday to Friday, 9am to 5pm.
                         </p>
                         <a href="tel:+15551234567" className="text-green-600 font-medium hover:underline">
-                            +1 (555) 123-4567
+                            9226593412
                         </a>
                     </div>
                     <div className="flex flex-col items-center text-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm">
@@ -25,7 +25,7 @@ function ContactCard() {
                             Send us an email and we'll get back to you within 24 hours.
                         </p>
                         <a href="mailto:contact@ecobags.com" className="text-green-600 font-medium hover:underline">
-                            contact@ecobags.com
+                            keshavhissal@gmail.com
                         </a>
                     </div>
                     <div className="flex flex-col items-center text-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm">
@@ -37,7 +37,7 @@ function ContactCard() {
                             Our headquarters and manufacturing facility are located at:
                         </p>
                         <address className="not-italic text-green-600 font-medium">
-                            123 Eco Street, Green City, EC 12345
+                            202/2/15 Jamod, Khel Lon, Jalgaon, Buldhana.
                         </address>
                     </div>
                 </div>

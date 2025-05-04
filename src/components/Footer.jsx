@@ -14,7 +14,7 @@ function Footer() {
                         <p className="text-stone-300 mb-4 text-sm sm:text-base">
                             Premium quality paper bags for a sustainable future.
                         </p>
-                        <div className="flex gap-4">
+                        {/* <div className="flex gap-4">
                             {["facebook", "twitter", "instagram", "linkedin"].map((social) => (
                                 <a key={social} href={`#${social}`} className="text-stone-300 hover:text-green-400">
                                     <span className="sr-only">{social}</span>
@@ -34,7 +34,7 @@ function Footer() {
                                     </div>
                                 </a>
                             ))}
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Quick Links */}
@@ -73,8 +73,8 @@ function Footer() {
                         <address className="not-italic text-stone-300 space-y-2 text-sm sm:text-base">
                             <p>202/2/15 Jamod, Khel Lon,</p>
                             <p>Jalgaon, Buldhana.</p>
-                            <p>contact@ecobags.com</p>
-                            <p>+1 (555) 123-4567</p>
+                            <p>keshavhissal@gmail.com</p>
+                            <p>9226593412</p>
                         </address>
                         {/* Form is commented out */}
                     </div>
