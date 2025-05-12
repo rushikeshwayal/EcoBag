@@ -8,8 +8,13 @@ function Footer() {
                     {/* Logo + About + Social */}
                     <div>
                         <div className="flex items-center gap-2 mb-4">
-                            <Package className="h-6 w-6 text-green-400" />
-                            <span className="text-xl font-bold">Vidharbha Paper Products</span>
+                            {/* <Package className="h-6 w-6 text-green-400" /> */}
+                            {/* <span className="text-xl font-bold">Vidharbha Paper Products</span> */}
+                            <img
+                                src="/logo_v_-removebg-preview.png"
+                                alt="Logo"
+                                className=" w-28"
+                            />
                         </div>
                         <p className="text-stone-300 mb-4 text-sm sm:text-base">
                             Premium quality paper bags for a sustainable future.

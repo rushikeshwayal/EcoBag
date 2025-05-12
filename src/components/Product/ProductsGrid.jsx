@@ -8,7 +8,7 @@ function ProductsGrid() {
                             title: "V Bottom Paper Bag",
                             description: "Sturdy and eco-friendly V-bottom paper bags, ideal for retail packaging and food service.",
                             features: ["Available in multiple sizes", "Custom branding options", "1Kg weight capacity"],
-                            image: "/VBag.svg",
+                            image: "/VPaper.jpg",
                         },
                         {
                             title: "Customized Paper Bag",

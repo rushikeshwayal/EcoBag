@@ -29,8 +29,12 @@ function NavBar() {
             <nav className="flex justify-between items-center bg-transparent p-2 px-8 text-black border-b-2 border-black top-0 font-glacial relative">
                 {/* Logo Section */}
                 <div className="sm:text-2xl lg:text-xl text-sm flex justify-center items-center space-x-2 gap-2">
-                    <Package className="h-6 w-6 text-green-600" />
-                    Vidharbha Paper Products
+                    {/* <Package className="h-6 w-6 text-green-600" /> */}
+                    <img
+                        src="/logo_v_-removebg-preview.png"
+                        alt="Logo"
+                        className=" w-32"
+                    />
                 </div>
 
                 {/* Desktop Menu */}
