@@ -78,8 +78,8 @@ function Footer() {
                         <address className="not-italic text-stone-300 space-y-2 text-sm sm:text-base">
                             <p>202/2/15 Jamod, Khel Lon,</p>
                             <p>Jalgaon, Buldhana.</p>
-                            <p>keshavhissal@gmail.com</p>
-                            <p>9226593412</p>
+                            <p>info@vidharbhapaperproducts.com</p>
+                            <p>+919226593412</p>
                         </address>
                         {/* Form is commented out */}
                     </div>
