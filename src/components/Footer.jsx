@@ -76,10 +76,11 @@ function Footer() {
                     <div>
                         <h3 className="font-bold text-lg mb-4">Contact Us</h3>
                         <address className="not-italic text-stone-300 space-y-2 text-sm sm:text-base">
-                            <p>202/2/15 Jamod, Khel Lon,</p>
-                            <p>Jalgaon, Buldhana.</p>
+                            <p>202/2/15/A Jamod, Khel Lon,</p>
+                            <p>Taluka Jalgaon Jamod, District - Buldhana, Maharashtra, India,  443402</p>
                             <p>info@vidharbhapaperproducts.com</p>
-                            <p>+919226593412</p>
+                            <p>+91 9226593412</p>
+                            <p>+91 7559176431</p>
                         </address>
                         {/* Form is commented out */}
                     </div>

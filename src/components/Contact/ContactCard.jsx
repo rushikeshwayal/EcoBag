@@ -10,10 +10,11 @@ function ContactCard() {
                         </div>
                         <h3 className="text-xl font-bold mb-2">Call Us</h3>
                         <p className="text-muted-foreground mb-4">
-                            Our customer service team is available Monday to Friday, 9am to 5pm.
+                            Our customer service team is available Monday to Saturday, 8am to 6pm.
                         </p>
                         <a href="tel:+15551234567" className="text-green-600 font-medium hover:underline">
-                            9226593412
+                            <p>+91 9226593412</p>
+                            <p>+91 7559176431</p>
                         </a>
                     </div>
                     <div className="flex flex-col items-center text-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm">
@@ -25,7 +26,7 @@ function ContactCard() {
                             Send us an email and we'll get back to you within 24 hours.
                         </p>
                         <a href="mailto:contact@ecobags.com" className="text-green-600 font-medium hover:underline">
-                            keshavhissal@gmail.com
+                            info@vidharbhapaperproducts.com
                         </a>
                     </div>
                     <div className="flex flex-col items-center text-center p-6 bg-white rounded-lg border border-stone-200 shadow-sm">
@@ -37,7 +38,9 @@ function ContactCard() {
                             Our headquarters and manufacturing facility are located at:
                         </p>
                         <address className="not-italic text-green-600 font-medium">
-                            202/2/15 Jamod, Khel Lon, Jalgaon, Buldhana.
+                            <p>202/2/15/A Jamod, Khel Lon,</p>
+                            <p>Taluka Jalgaon Jamod, District - Buldhana, Maharashtra, India,  443402</p>
+                            <p> India,  443402</p>
                         </address>
                     </div>
                 </div>

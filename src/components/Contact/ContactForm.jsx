@@ -56,13 +56,13 @@ export default function ContactForm() {
                             <input
                                 type="hidden"
                                 name="access_key"
-                                value="f0271ef4-3c6a-4118-a9be-aa313da138c3"
+                                value="5dcbbd2d-a121-455b-aa15-232d97e69ac8"
                             />
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                                 <div className="space-y-2">
                                     <label htmlFor="first-name" className="text-sm font-medium">
-                                        First Name
+                                        First Name*
                                     </label>
                                     <input
                                         id="first-name"
@@ -74,7 +74,7 @@ export default function ContactForm() {
                                 </div>
                                 <div className="space-y-2">
                                     <label htmlFor="last-name" className="text-sm font-medium">
-                                        Last Name
+                                        Last Name*
                                     </label>
                                     <input
                                         id="last-name"
@@ -88,7 +88,7 @@ export default function ContactForm() {
 
                             <div className="space-y-2">
                                 <label htmlFor="email" className="text-sm font-medium">
-                                    Email
+                                    Email*
                                 </label>
                                 <input
                                     id="email"
@@ -102,7 +102,7 @@ export default function ContactForm() {
 
                             <div className="space-y-2">
                                 <label htmlFor="phone" className="text-sm font-medium">
-                                    Phone Number
+                                    Phone Number*
                                 </label>
                                 <input
                                     id="phone"
@@ -116,7 +116,7 @@ export default function ContactForm() {
 
                             <div className="space-y-2">
                                 <label htmlFor="subject" className="text-sm font-medium">
-                                    Subject
+                                    Subject*
                                 </label>
                                 <input
                                     id="subject"
@@ -129,7 +129,7 @@ export default function ContactForm() {
 
                             <div className="space-y-2">
                                 <label htmlFor="message" className="text-sm font-medium">
-                                    Message
+                                    Message*
                                 </label>
                                 <textarea
                                     id="message"
@@ -193,13 +193,13 @@ export default function ContactForm() {
                                 <h3 className="text-xl font-bold mb-4">Business Hours</h3>
                                 <ul className="space-y-2">
                                     <li className="flex justify-between">
-                                        <span className="text-muted-foreground">Monday - Friday</span>
-                                        <span className="font-medium">9:00 AM - 5:00 PM</span>
+                                        <span className="text-muted-foreground">Monday - Saturday</span>
+                                        <span className="font-medium">8:00 AM - 6:00 PM</span>
                                     </li>
-                                    <li className="flex justify-between">
+                                    {/* <li className="flex justify-between">
                                         <span className="text-muted-foreground">Saturday</span>
                                         <span className="font-medium">10:00 AM - 2:00 PM</span>
-                                    </li>
+                                    </li> */}
                                     <li className="flex justify-between">
                                         <span className="text-muted-foreground">Sunday</span>
                                         <span className="font-medium">Closed</span>
