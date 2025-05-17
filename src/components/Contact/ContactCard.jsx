@@ -40,7 +40,6 @@ function ContactCard() {
                         <address className="not-italic text-green-600 font-medium">
                             <p>202/2/15/A Jamod, Khel Lon,</p>
                             <p>Taluka Jalgaon Jamod, District - Buldhana, Maharashtra, India,  443402</p>
-                            <p> India,  443402</p>
                         </address>
                     </div>
                 </div>
